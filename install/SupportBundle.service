@@ -1,0 +1,12 @@
+[Unit]
+Description=Karthavya Support Bundle is used to get mongo and log dump of karthavya projects
+After=multi-user.target
+Conflicts=getty@tty1.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/SupportBundle/webservice.py
+StandardInput=tty-force
+
+[Install]
+WantedBy=multi-user.target
