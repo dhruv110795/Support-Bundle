@@ -1,0 +1,76 @@
+<script type="text/javascript" src="js/script/home.js"></script>
+<link rel="stylesheet" type="text/css" href="css/scss/supportbundle.css">
+
+<div class="sb-main-wrapper">
+    <div class="sb-main-header">
+        <img src="images/karthavyaLogo.png" alt="karthavyaLogo">
+        <span id="sb_client"></span>
+        <span style="padding-left: 0px;">Support Bundle</span>
+        <span id="sb_logout">Logout</span>
+    </div>
+    <div class="col-md-12 sb-main-content">
+        <div class="col-md-12 sb-download-bundle" style="padding: 0px;margin: 0px;">
+            <div class="sb-schedule-now">
+                <div class="sb-content-wrapper">
+                    <label class="sb-descp">Project Name:</label>
+                    <select class="sb-descp-value" id="sb_project_name" style="width: 30%;">
+                    </select>
+                </div>
+                <div class="sb-content-wrapper">
+                    <label class="sb-descp">DB Dump</label>
+                    <input class="sb-common-checkbox-style" type="checkbox" id="sb_mongodump">
+                </div>
+                <div class="sb-content-wrapper">
+                    <label class="sb-descp">Application Log</label>
+                    <input class="sb-common-checkbox-style" type="checkbox" id="sb_app_logs">
+                </div>
+                <div class="sb-content-wrapper">
+                    <label class="sb-descp">System Log</label>
+                    <input class="sb-common-checkbox-style" type="checkbox" id="sb_sys_logs">
+                </div>
+
+                <div class="sb-bottom-wrapper">
+                    <div class="sb-bottom-buttom sb-download-button-div">
+                        <button class="sb-button" id="sb_download_bundle">Download</button>
+                    </div>
+                    <div class="sb-loading-div" style="display: none;">
+                        <span>Preparing the bundle</span>
+                        <div class="loading"></div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div id="sb_error" title="Error" style="display: none;">
+            There was a problem generating your bundle, please try again.
+        </div>
+        <div class="col-md-5 sb-recent-downloads" style="padding: 0px;margin: 0px;display: none;">
+            <div class="sb-recent-header">
+                Recent Download
+            </div>
+            <div class="sb-recent-download-content">
+                <div class="sb-recent-data">
+                    <div class="sb-recent-data">
+                        <div class="sb-recent-item">
+                            <div class="col-md-1 sb-recent-item-div1">
+                                <span class="sb-project-name-label" id="sb_recent_project_name">H</span>
+                            </div>
+                            <div class="col-md-11 sb-recent-item-div2" >
+                                <span class="sb-recent-filename" data-path="/opt/SupportBundle/tmp/HYPE_dhruv_16_07_2020__17_56_16.zip">HYPE_dhruv_16_07_2020__17_56_16.zip</span>
+                            </div>
+                            <div class="sb-recent-item-div3">
+                                <div class="col-md-9" style="padding-left: 2% !important; margin: 0px;">
+                                    <span id="sb_recent_time" style="padding-right: 3%;">18:20:13</span>
+                                    <span id="sb_recent_day">16-07-2020</span>
+                                </div>
+                                <div class="col-md-2 " style="padding: 0px;margin: 0px;">
+                                    <span id="sb_recent_download">Download</span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

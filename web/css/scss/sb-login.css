@@ -1,0 +1,84 @@
+body {
+  margin: 0pc !important;
+  background-color: #504d4d;
+}
+
+.sb-login-main-div {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sb-style-login-bar {
+  box-shadow: 0px 0px 3px 0px #626262;
+  border-radius: 10px;
+  background: #0000009e;
+  position: absolute;
+  right: -22%;
+  left: 20%;
+}
+
+.sb-login-fields {
+  border-radius: 20px;
+  margin-left: 15px !important;
+}
+
+.sb-login-div {
+  margin: 0px !important;
+  position: relative;
+  top: 20%;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding: 20px 0px;
+}
+
+.sb-input-div {
+  display: inline-flex;
+}
+
+.input-group-addon i {
+  position: relative;
+  right: 5px;
+}
+
+.sb-login-wrapper {
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  height: 99px;
+}
+
+#sb-login_btn {
+  position: relative;
+  left: 25%;
+  background-color: #0a729f;
+  border-color: #2a729f;
+  color: #eee;
+}
+
+#sb-logo {
+  position: relative;
+  top: 39px;
+  width: 110px;
+  right: 56px;
+}
+
+#sb-username, #sb-password {
+  border-radius: 0px 4px 4px 0px;
+  background-color: #798ca961;
+  border: 1px solid #888;
+  color: #fff;
+}
+
+.SCM-heading-div {
+  text-align: center;
+}
+
+.sb-heading {
+  font-weight: 600;
+  color: #ccc;
+}
+
+.sb-input-filed-div {
+  padding: 25px;
+}
+
+/*# sourceMappingURL=sb-login.css.map */
